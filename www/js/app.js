@@ -54,6 +54,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 	  }
   })
   
+  .state('tab.setting', {
+	  url: '/setting',
+	  views: {
+		  'tab-setting': {
+			  templateUrl: 'templates/tab-setting.html',
+			  controller: 'SettingController'
+		  }
+	  }
+  })
+  
+  
 
   .state('tab.dash', {
     url: '/dash',

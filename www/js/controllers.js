@@ -6,6 +6,8 @@ angular.module('starter.controllers', [])
 
 .controller('PhotoSyncController', function(){})
 
+.controller('SettingController', function(){})
+
 
 .controller('DashCtrl', function($scope) {})
 
